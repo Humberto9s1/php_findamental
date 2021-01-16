@@ -6,9 +6,13 @@
     </head>
 
     <body>
-        <?php 
+        <!-- Comentário HTML -->
+        <p><?php 
+            //Comentário em PHP (não aparece para o usuário)
             $_1telefone = "Humberto Martins"; 
-            echo $_1telefone;
-        ?>
+            $_soma = 2 + 5;
+            echo $_1telefone;    
+            echo ' ',$_soma;
+        ?></p>
     </body>
 </html>
