@@ -7,6 +7,34 @@
     </head>
     <body>
         <?php 
+            $_dia = "sabado";
+
+            switch ($_dia) {
+                case 'segunda':
+                    echo "Hoje é segunda";
+                    break;
+                case 'terça':
+                    echo "Hoje é terça";
+                    break;
+                case 'quarta':
+                    echo "Hoje é quarta";
+                    break;
+                case 'quinta':
+                    echo "Hoje é quinta";
+                    break;
+                case 'sexta':
+                    echo "Hoje é sexta";
+                    break;
+                case 'sabado':
+                    echo "Hoje é sabado";
+                    break;
+                case 'domingo':
+                    echo "Hoje é sabado";
+                    break;
+                default:
+                    echo "Não é um dia da semana válido";
+                    break;
+            }
 
         ?>
     </body>
