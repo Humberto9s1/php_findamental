@@ -1,6 +1,7 @@
 <?php
     $salario = 1095;
     $gasolina = 4.55;
+    $telefone = "3456-0987";
 ?>
 
 <!doctype html>
