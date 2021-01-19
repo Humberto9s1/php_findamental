@@ -7,7 +7,9 @@
     </head>
     <body>
         <?php 
-
+            $_idade = 21;
+            $_moioridade = ($_idade >= 18) ? "maior de idade" : "menor de idade";
+            echo $_moioridade; 
         ?>
     </body>
 </html>
