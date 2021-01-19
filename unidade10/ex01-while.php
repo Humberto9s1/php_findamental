@@ -6,7 +6,13 @@
 </head>
 <body>
     <?php                    
+        $_contador = 1;
 
+        while($_contador < 5) {
+            $_sorteio = rand(1,60);
+            echo $_sorteio . " ";
+            $_contador++;
+        }
     ?>
 </body>
 </html>
