@@ -7,7 +7,7 @@
 
     <body>
         <?php
-            date_default_timezone_set('US/Eastern');
+            date_default_timezone_set('Brazil/East');
             $_agora = getdate();
             print_r($_agora);
         ?>

@@ -22,7 +22,7 @@
             $_ano           = $_agora["year"];
 
             // mostrar na tela
-            echo $_hora . ":" . $_minuto . ":" . $_segundo . " - " . $_dia . " de " . $_mes . " de " . $_ano;
+            echo strftime('%A') . ", " . $_hora . ":" . $_minuto . ":" . $_segundo . " - " . $_dia . " de " . $_mes . " de " . $_ano;
         ?>
     </body>
 </html>
