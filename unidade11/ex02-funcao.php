@@ -10,7 +10,8 @@
             return number_format( $salario/$dias, 2);
         }
 
-        echo retornarDiaria(5000, 15);
+        echo retornarDiaria(5000, 15).'<br>';
+        echo retornarDiaria(5000, 28).'<br>';
     ?>
 </body>
 </html>
