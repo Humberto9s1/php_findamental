@@ -6,5 +6,10 @@
     </head>
 
     <body> 
+        <?php
+            $codigo = $_GET["codigo"];
+
+            echo $codigo;
+        ?>
     </body>
 </html>
