@@ -7,9 +7,11 @@
 
     <body> 
         <?php
+            $salada = array("imagens/laranja.jpg","imagens/maca.jpg","imagens/abacate.jpg");
             $codigo = $_GET["codigo"];
 
-            echo $codigo;
         ?>
+
+        <img src="<?php echo $salada[$codigo] ?>" >
     </body>
 </html>
