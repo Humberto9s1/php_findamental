@@ -7,15 +7,22 @@
 
     <body> 
         <?php
-            print_r($_POST);
+
+            if(isset($_POST["nome"])){
+            $nome = $_POST["nome"];
+            }else{
+                $nome = "Sem definição";
+            }
+            
+            if(isset($_POST["email"])){
+            $email = $_POST["email"];
+            }else{
+                $email = "Sem definição";
+            }
+            
+            echo "Nome: ". $nome ."<br>";
+            echo "Email: ". $email;
         ?>
-       
-        <?php
-            print_r($_POST["nome"]);
-        ?>
-       
-        <?php
-            print_r($_POST["email"]);
-        ?>
+
     </body>
 </html>
