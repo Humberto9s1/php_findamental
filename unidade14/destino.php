@@ -6,5 +6,16 @@
     </head>
 
     <body> 
+        <?php
+            print_r($_POST);
+        ?>
+       
+        <?php
+            print_r($_POST["nome"]);
+        ?>
+       
+        <?php
+            print_r($_POST["email"]);
+        ?>
     </body>
 </html>
